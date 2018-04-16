@@ -1,6 +1,4 @@
 #include "libft.h"
-#include <stdio.h>
-#include <unistd.h>
 
 void		ft_putchar(char c)
 {
