@@ -11,10 +11,37 @@ These instructions will get you a copy of the project up and running on your loc
 
 ### Prerequisites
 
-What things you need to install the software and how to install them
+Part One of the project is to recode the following list of system functions:
 
 ```
-Give examples
+memset
+bzero
+memcpy
+memccpy
+memmove
+memchr
+memcmp
+strlen
+strdup
+strcpy
+strncpy
+strcat
+strncat
+strlcat
+strchr
+strrchr
+strstr
+strnstr
+strcmp
+strncmp
+atoi
+isalpha
+isdigit
+isalnum
+isascii
+isprint
+toupper
+tolower
 ```
 
 ### Installing
