@@ -1,7 +1,9 @@
 # libft_2.0
-# Project Title
 
-One Paragraph of project description goes here
+C programming can be very tedious when one doesn’t have access to those highly useful
+standard functions. For this project we have to re-write those functions,
+understand them, and learn to use them. This library will help me for all the future C
+projects in the 42 Curriculum.
 
 ## Getting Started
 
