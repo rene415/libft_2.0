@@ -8,3 +8,4 @@
 
 void					ft_putstr(char const *s);
 void					ft_putchar(char c);
+#endif
