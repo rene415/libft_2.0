@@ -12,7 +12,7 @@ SRC = 	ft_putstr.c \
 OBJ = $(SRC:.c=.o)
 
 $(NAME):
-	@(CC) $(CFLAGS) $(DEPS) $(SRC)
+	@$(CC) $(CFLAGS) $(DEPS) $(SRC)
 	@ar rc $(NAME) $(OBJ)
 
 all:
