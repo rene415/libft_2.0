@@ -4,7 +4,6 @@
 int			main(void)
 {
 	char letter;
-	char ltts;
 
 	printf("Renes function: \n");
 	for (letter = 'A' ; letter <= 'Z' ; letter++)
@@ -13,15 +12,15 @@ int			main(void)
 	}
 	printf("\n\n");
 	printf("Computers function: \n");
-	for (ltts = 'A' ; ltts <= 'Z' ; ltts++)
+	for (letter = 'A' ; letter <= 'Z' ; letter++)
 	{
-		putchar(ltts);
+		putchar(letter);
 	}
 	printf("\n");
 	return (0);
-} */
+}
 
-/*ft_putstr main*/
+ the main for ft_putstr main
 int		main(void)
 {
 	char str[12] = "Hello";
@@ -32,4 +31,15 @@ int		main(void)
 	ft_putstr(str1);
 	printf("\n");
 	return 0;
+} */
+
+/* The main for ft_strlen */
+int		main(void)
+{
+	char str[12] = "Hello";
+
+	printf("Renes function: \n");
+	printf("string: [%s] size: [%zu]\n",str ,ft_strlen(str));
+	printf("Computers function: \n");
+	printf("string: [%s] size: [%zu]\n",str ,ft_strlen(str));
 }
