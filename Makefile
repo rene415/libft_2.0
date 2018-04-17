@@ -8,6 +8,7 @@ DEPS = libft.h
 
 SRC = 	ft_putstr.c \
 		ft_putchar.c \
+	ft_strlen.c \
 
 OBJ = $(SRC:.c=.o)
 
@@ -23,5 +24,8 @@ clean:
 
 fclean:
 	@rm -f $(NAME)
+
+re: fclean all
+	
 
 re: fclean all
