@@ -1,4 +1,6 @@
-//ft_putchar main
+#include "libft.h"
+
+/* the main for ft_putchar */
 int			main(void)
 {
 	char letter;
@@ -6,17 +8,20 @@ int			main(void)
 
 	printf("Renes function: \n");
 	for (letter = 'A' ; letter <= 'Z' ; letter++)
-		{ft_putchar(letter);}
+	{
+		ft_putchar(letter);
+	}
 	printf("\n\n");
 	printf("Computers function: \n");
 	for (ltts = 'A' ; ltts <= 'Z' ; ltts++)
-		{putchar(ltts);}
+	{
+		putchar(ltts);
+	}
 	printf("\n");
-	
 	return (0);
 }
 
-//ft_putstr main
+/*ft_putstr main
 int		main(void)
 {
 	char str[12] = "Hello";
@@ -25,4 +30,6 @@ int		main(void)
 	ft_putstr(str);
 	ft_putstr(str1);
 	return 0;
-}
+	// ft_putstr
+	//ft_putstr(argv[1]);
+}*/
