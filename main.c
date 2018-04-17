@@ -1,6 +1,6 @@
 #include "libft.h"
 
-/* the main for ft_putchar */
+/* the main for ft_putchar
 int			main(void)
 {
 	char letter;
@@ -19,17 +19,17 @@ int			main(void)
 	}
 	printf("\n");
 	return (0);
-}
+} */
 
-/*ft_putstr main
+/*ft_putstr main*/
 int		main(void)
 {
 	char str[12] = "Hello";
 	char str1[12] = "World!";
 
 	ft_putstr(str);
+	printf("\n");
 	ft_putstr(str1);
+	printf("\n");
 	return 0;
-	// ft_putstr
-	//ft_putstr(argv[1]);
-}*/
+}
