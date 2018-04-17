@@ -14,14 +14,14 @@ These instructions will get you a copy of the project up and running on your loc
 Part One of the project is to recode the following list of system functions:
 
 ```
-memset
-bzero
-memcpy
+memset - he memset() function writes len bytes of value c (converted to an unsigned char) to the string b.
+bzero - The bzero() function writes n zeroed bytes to the string s.  If n is zero, bzero() does nothing.
+memcpy - The memcpy() function copies n bytes from memory area src to memory area dst.
 memccpy
 memmove
 memchr
 memcmp
-strlen
+strlen - The strlen() function computes the length of the string s.
 strdup
 strcpy
 strncpy
@@ -44,20 +44,24 @@ toupper
 tolower
 ```
 
-### Installing
+### Running
 
-A step by step series of examples that tell you have to get a development env running
-
-Say what the step will be
+In order to compile the Library you will need to run the Makefile in order to do that run
 
 ```
-Give the example
+make
 ```
 
-And repeat
+once compiled you will run the function that you want to try out by editing the main.c file
 
 ```
-until finished
+gcc main.c libft.a
+```
+
+execute the file
+
+```
+./a.out
 ```
 
 End with an example of getting some data out of the system or using it for a little demo
