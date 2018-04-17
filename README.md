@@ -14,14 +14,14 @@ These instructions will get you a copy of the project up and running on your loc
 Part One of the project is to recode the following list of system functions:
 
 ```
-memset - he memset() function writes len bytes of value c (converted to an unsigned char) to the string b.
-bzero - The bzero() function writes n zeroed bytes to the string s.  If n is zero, bzero() does nothing.
-memcpy - The memcpy() function copies n bytes from memory area src to memory area dst.
+memset
+bzero
+memcpy
 memccpy
 memmove
 memchr
 memcmp
-strlen - The strlen() function computes the length of the string s.
+strlen - The strlen() function checks the length of the string.
 strdup
 strcpy
 strncpy
@@ -42,6 +42,35 @@ isascii
 isprint
 toupper
 tolower
+```
+
+Part two of the project is to recode the following functions. Most of these functions are not built in the system but will be needed for future projects.
+
+```
+ft_memalloc
+ft_memdel
+ft_strnew
+ft_strdel
+ft_strclr
+ft_striter
+ft_striteri
+ft_strmap
+ft_strmapi
+ft_strequ
+ft_strnequ
+ft_strsub
+ft_strjoin
+ft_strtrim
+ft_strsplit
+ft_itoa
+ft_putchar - The ft_putchar() function puts a single character in stdout
+ft_putstr - The ft_putstr() function works similar to ft_putchar but allows to put a whole string instead of a single character
+ft_putendl
+ft_putnbr
+ft_putchar_fd
+ft_putstr_fd
+ft_putendl_fd
+ft_putnbr_fd
 ```
 
 ### Running
