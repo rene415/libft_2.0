@@ -44,7 +44,7 @@ toupper
 tolower
 ```
 
-Part two of the project is to recode the following functions. Most of these functions are not built in the system but will be needed for future projects.
+Part two of the project is to recode the following functions. Most of these functions are not in the built in the system but will be needed for future projects.
 
 ```
 ft_memalloc
@@ -73,7 +73,7 @@ ft_putendl_fd
 ft_putnbr_fd
 ```
 
-### Running
+### Running the tests
 
 In order to compile the Library you will need to run the Makefile in order to do that run
 
@@ -94,10 +94,6 @@ execute the file
 ```
 
 End with an example of getting some data out of the system or using it for a little demo
-
-## Running the tests
-
-Explain how to run the automated tests for this system
 
 ### Break down into end to end tests
 
@@ -121,31 +117,15 @@ Add additional notes about how to deploy this on a live system
 
 ## Built With
 
-* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - The web framework used
-* [Maven](https://maven.apache.org/) - Dependency Management
-* [ROME](https://rometools.github.io/rome/) - Used to generate RSS Feeds
-
-## Contributing
-
-Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426) for details on our code of conduct, and the process for submitting pull requests to us.
-
-## Versioning
-
-We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/your/project/tags). 
+* C (lol)
 
 ## Authors
 
-* **Billie Thompson** - *Initial work* - [PurpleBooth](https://github.com/PurpleBooth)
-
-See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
+* **Rene Ramirez** - *Initial work* (https://github.com/rene415)
 
 ## Acknowledgments
 
-* Hat tip to anyone who's code was used
-* Inspiration
-* etc
+* Any question you have already exists here -->(https://stackoverflow.com)
+* Best test cases -->(https://tutorialspoint.com)
+* Best resource is see how the orignal works -->(https://opensource.apple.com)
 
